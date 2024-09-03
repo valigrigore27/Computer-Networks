@@ -1,0 +1,7 @@
+Acest exemplu de cod demonstrează o implementare de bază a unei aplicații client-server în limbajul C, utilizând mecanisme de comunicare inter-proces (IPC) prin FIFO (named pipes). 
+
+Codul este conceput pentru a permite unui client să comunice cu un server prin trimiterea și primirea de comenzi și răspunsuri.
+
+Se folosește un canal de comunicare bidirecțional între client și server, realizat prin două FIFO-uri (cl-sv și sv-cl), ceea ce permite trimiterea de mesaje în ambele direcții.
+
+Serverul poate executa câteva comenzi simple, cum ar fi autentificarea utilizatorilor, obținerea utilizatorilor conectați, și deconectarea.

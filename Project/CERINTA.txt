@@ -1,0 +1,2 @@
+Sincronic (C)
+Fie un server TCP concurent la care se pot conecta simultan maxim N clienti. Serverul primeste mesaje, din S in S minute, de la macar M dintre clienti, cu M < N. Daca mesajele primite de la cei M clienti nu coincid, atunci serverul va trimite celor N clienti mesajul "gata", dupa care deconecteaza toti clientii. Daca mesajele coincid, serverul va trimite tuturor clientilor mesajul "continua" si va astepta urmatoarele mesaje de la alti doi clienti ai sai.
